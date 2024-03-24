@@ -11,8 +11,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  password: string = "";
   onButtonClick = () => {
-    console.log('Button clicked')
+    this.password = "password";
   }
 
 }
